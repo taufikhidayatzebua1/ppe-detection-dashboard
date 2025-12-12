@@ -202,14 +202,6 @@ source database/seed.sql;
 - AI model integration for automated PPE detection
 - Role-based access control
 
-## License
-
-[Add your license here]
-
-## Contributors
-
-[Add contributors here]
-
 ## Support
 
 For issues and questions, please open an issue on GitHub.

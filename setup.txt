@@ -1,0 +1,30 @@
+SETUP REQUIREMENTS
+
+pip install Flask==3.1.1
+pip install Flask-Login==0.6.3
+pip install Flask-MySQLdb==2.0.0
+pip install Flask-SocketIO==5.5.1
+pip install flaskwebgui==1.1.6
+pip install mysqlclient==2.2.7
+pip install eventlet==0.33.3  # untuk socketio
+
+
+SETUP DATABASE
+
+# Masuk sql
+mysql -u root -p
+
+# Membuat database
+CREATE DATABASE ppe_detection;
+
+# Gunakan database
+USE ppe_detection
+
+# Import database schema
+source D:/PPE-DETECTON/Flask/database/schema.sql;
+
+# database seed
+source D:/PPE-DETECTON/Flask/database/seed.sql;
+
+# database reset
+source D:/PPE-DETECTON/Flask/database/reset.sql;

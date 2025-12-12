@@ -1,0 +1,17 @@
+# Masuk sql
+mysql -u root -p
+
+# Membuat database
+CREATE DATABASE ppe_detection;
+
+# Gunakan database
+USE ppe_detection
+
+# Import database schema
+source D:/PPE-DETECTON/Flask/database/schema.sql;
+
+# Import database seed
+source D:/PPE-DETECTON/Flask/database/seed.sql;
+
+# Import database reset
+source D:/PPE-DETECTON/Flask/database/reset.sql;
